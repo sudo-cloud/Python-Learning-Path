@@ -26,7 +26,7 @@
             
                                         
                                         PRODUCTION
-  Deployment to Production (Existing Server) ⇨ Chef Or Puppet Or Ansible Or UDeploy Or Octopus Deploy
+  Deployment to Production(Existing Server) ⇨ Chef Or Puppet Or Ansible Or UDeploy Or Octopus Deploy
   
     Deployment to Production (Container)    ⇨ Kuernetes
       
@@ -37,7 +37,15 @@
           Performance Monitoring	          ⇨	New Relic or Appdynamics
           
                  Security	                  ⇨	Appscan or SonarQube or Fortify
-Testing Environment.
-Jenkins ->
+                 
+                                         PLATFORM
+             Physical Server 	              ⇨	WINDOWS or RHEL or UBUNTU or MAC
+             
+          Virtualization Private	          ⇨	Vmware or Vagrant
+          
+           Virtualization Public	          ⇨	AWS or Azure or Google Cloud
+           
+                Containers	                ⇨	Docker or Kubernetes or Swarm or Docker EE
+
          
              
